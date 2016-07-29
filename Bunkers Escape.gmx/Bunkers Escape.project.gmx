@@ -9,6 +9,8 @@
     <sound>sound\Puerta</sound>
     <sound>sound\snd_muerte</sound>
     <sound>sound\snd_nivel</sound>
+    <sound>sound\snsd_gameover</sound>
+    <sound>sound\snd_victoria</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprpuerta</sprite>
@@ -40,6 +42,10 @@
   <backgrounds name="background">
     <background>background\backgroundduelo</background>
     <background>background\backINICIO</background>
+    <background>background\fondo_ins</background>
+    <background>background\GAMEOVER</background>
+    <background>background\suelo</background>
+    <background>background\Victoria</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -71,12 +77,19 @@
     <object>objects\objgema</object>
     <object>objects\objfrasco</object>
     <object>objects\objinicio</object>
+    <object>objects\objgameover</object>
+    <object>objects\aplauso</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Inicio</room>
+    <room>rooms\FELICIDADES</room>
+    <room>rooms\Instruciones</room>
     <room>rooms\Nivel_1</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Nivel_3</room>
+    <room>rooms\Nivel_4</room>
+    <room>rooms\Nivle_5</room>
+    <room>rooms\GAME_OVER</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -289,7 +289,7 @@ if(place_meeting(x,y, objfrasco))
             <kind>1</kind>
             <string>instance_destroy();
 audio_play_sound(snd_muerte, 10, false);
-room_restart();
+room_goto(GAME_OVER);
 
 </string>
           </argument>
